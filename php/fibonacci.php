@@ -10,7 +10,7 @@ function fibonacci($number){
             return 1;
         }
         if ($number > 1){
-            return (f($number-2) + f($number-1));
+            return (fibonacci($number-2) + fibonacci($number-1));
         }
     
 }
