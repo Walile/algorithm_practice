@@ -2,10 +2,6 @@
 
 function pyramind($n) {
     $pyramind = array();
-    // if (($n/2) == 0){
-    //     return "Please enter an odd number";
-    // }
-
     $midKey = $n;
     $rowRange = $midKey + $n;
     
