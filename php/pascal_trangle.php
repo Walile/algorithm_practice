@@ -46,7 +46,6 @@ foreach(range(0, 10) as $i){
 
 }
 
-printArray($array);
 
 ////// generate pascal trangle value
 $pascalTrangle = pascal($array);
